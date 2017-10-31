@@ -2,11 +2,18 @@
   "name": "chatgroup",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": "https://github.com/thamthee/chat-group.git",
   "author": "Tham Treerawuttichaikit <intime_@outlook.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "hbs": "^4.0.1",
     "pug": "^2.0.0-rc.4"
   }
 }
