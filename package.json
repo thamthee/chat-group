@@ -1,0 +1,12 @@
+{
+  "name": "chatgroup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thamthee/chat-group.git",
+  "author": "Tham Treerawuttichaikit <intime_@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
